@@ -1,0 +1,25 @@
+
+#enables color in the terminal bash shell export
+export CLICOLOR=1
+#sets up the color scheme for list export
+#export LSCOLORS=gxfxcxdxbxegedabagacad
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+export EDITOR='vim'
+export VISUAL="$EDITOR"
+
+export VIM_APP_DIR='/Applications'
+
+#enables color and title bar for iTerm
+export TERM=xterm-color
+
+export CC=gcc-4.2
+
+export RUBYMINE_HOME="/Applications/RubyMine 3.2.3.app"
+
+export NODE_PATH="/usr/local/lib/node"
+
+export PATH="/usr/local/bin:$PATH"
+
+#Tmuxinator
+ [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator

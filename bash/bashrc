@@ -1,0 +1,4 @@
+. ~/dotfiles/bash/env
+. ~/dotfiles/bash/prompt
+. ~/dotfiles/bash/alias
+. ~/dotfiles/bash/rvm

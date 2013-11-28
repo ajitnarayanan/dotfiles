@@ -1,0 +1,7 @@
+vim_plugin_task "GitBranchInfo", "git://github.com/taq/vim-git-branch-info.git"
+vim_plugin_task "Vim-Ruby", "git://github.com/vim-ruby/vim-ruby.git"
+vim_plugin_task "SessionMan", "git://github.com/vim-scripts/sessionman.vim.git"
+vim_plugin_task "minibufexpl", "git://github.com/fholgado/minibufexpl.vim.git"
+vim_plugin_task "SweetRspec","https://github.com/duskhacker/sweet-rspec-vim.git"
+vim_plugin_task "JQuery", "https://github.com/vim-scripts/jQuery.git"
+vim_plugin_task "Sparkup", "https://github.com/kogakure/vim-sparkup.git"

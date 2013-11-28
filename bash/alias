@@ -1,0 +1,63 @@
+
+
+alias ex="mvim -ve"
+alias vim="mvim -v"
+alias view="mvim -vR"
+alias vimdiff="mvim -vd"
+alias rvim="mvim -vZ"
+alias rview="mvim -vRZ"
+
+alias gex="mvim -ge"
+alias gvim="mvim -g"
+alias gview="mvim -gR"
+alias gvimdiff="mvim -gd"
+alias rgvim="mvim -gZ"
+alias rgview="mvim -gRZ"
+# cd
+alias ..='cd ..'
+alias ...='cd ...'
+alias ...='cd ....'
+
+# ls
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'
+
+# git
+alias g='git'
+alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
+
+alias gcom='git checkout master'
+alias gcos='git checkout staging'
+alias gcod='git checkout develop'
+
+alias gpom='git push origin master'
+alias gpos='git push origin staging'
+alias gpod='git push origin develop'
+
+# rails
+alias r='rails'
+alias tlog='tail -f log/development.log'
+alias migrate='rake db:migrate db:test:clone'
+alias rst='touch tmp/restart.txt'
+alias spec='bundle exec rake spec cucumber'
+
+alias work='cd ~/private/code/stratequip'
+#rvm
+alias rgl='rvm gemset list'
+alias rl='rvm list'
+#proxy
+function proxyset(){
+  export http_proxy=http://proxy:8080
+  export HTTP_PROXY=http://proxy:8080
+  export https_proxy=http://proxy:8080
+  export HTTPS_PROXY=http://proxy:8080
+}
+
+function proxyunset(){
+  export http_proxy=''
+  export HTTP_PROXY=''
+  export https_proxy=''
+  export HTTPS_PROXY=''
+}
