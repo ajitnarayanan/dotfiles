@@ -2,3 +2,5 @@
 . ~/dotfiles/bash/prompt
 . ~/dotfiles/bash/alias
 . ~/dotfiles/bash/rvm
+source ~/dotfiles/.git-promt.bash
+source ~/dotfiles/.git-completion.bash
